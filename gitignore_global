@@ -1,0 +1,13 @@
+*~
+.DS_Store
+.buildpath
+.project
+.settings/
+.idea
+vendor
+storage
+templates_c/
+logs/
+.env
+data/
+node_modules/

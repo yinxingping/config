@@ -1,0 +1,5 @@
+Host qzb1 
+    Hostname 192.168.2.101
+    Port 4001
+    User david
+    IdentityFile /Users/david/.ssh/id_rsa

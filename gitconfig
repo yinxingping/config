@@ -1,0 +1,31 @@
+[user]
+	ename = david
+	email = david_3g@sina.cn
+	name = david.yin
+[core]
+	excludesfile = /Users/david/.gitignore_global
+	editor = vim
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[push]
+	default = simple
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	pl = pull
+	ps = push
+[color]
+	ui = true
+[commit]
+	template = /Users/david/.stCommitMsg
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
